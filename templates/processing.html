@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<h>Uploaded File: {{file_name}} <br><br> </h>
+<audio controls> <source src={{file_path}} type="audio/mpeg"> </audio>
+
+<form action="/processing" method="POST">
+<input type="submit" value="Send to Assembly AI API"> <br><br>
+<h>Assembly AI API Output: {{assembly_out}}</h>
+
+
+<form action="/processing" method="POST">
+<input type="submit" value="Send to Grammar API"> <br><br>
+<h>Grammar API Output: {{grammar_out}}</h>

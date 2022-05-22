@@ -13,7 +13,6 @@ class Grammar:
         fixed = self._fix_errors(input, errors)
         return fixed
 
-    
     def _find_errors(self, input):
         text = '+'.join(input.split())
         url = f'https://api.textgears.com/grammar?key={self.api_key}&text={text}&language=en-GB'
@@ -23,6 +22,8 @@ class Grammar:
     def _fix_errors(self, input, response):
         fixed = input
         errors = response['response']['errors']
+        if len(errors) == 0:
+            return input+'\n'+'(No errors found)'
         for e in errors:
             bad = e['bad']
             better = e['better'][0]
