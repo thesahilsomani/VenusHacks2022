@@ -1,0 +1,87 @@
+* {
+    font-family: 'Lucida Grande';
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+html { 
+    background: url("../photos/purplewaves.png") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.name {
+    margin-top: 2%;
+    left: 3%;
+    position: absolute;
+    color: whitesmoke;
+    width: 85%;
+    font-size: 30px;
+}
+
+.assemblyText {
+    position: absolute;
+    color: whitesmoke;
+    top: 20%;
+    left: 25%;
+    font-size: 30px;
+}
+
+.poweredBy {
+    font-family: 'Lucida Grande';
+    font-size: 28;
+    color: #DCCDFC;
+    margin-bottom: 0px;
+}
+
+.assemblyLogo{
+    margin-right: 20px;
+    width: 200px;
+    height: 90px;
+}
+
+.grammarBox {
+    position: absolute;
+    top: 32%;
+    left: 42%;
+}
+
+#grammarButton {
+    font-size: 20px;
+    font-family: 'Lucida Grande';
+    border-radius: 10px;
+}
+
+.astronautGuy {
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+    bottom: 0px;
+}
+
+.resultBox {
+    top: 40%;
+    left: 25%;
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    background-color: #ac8edc;
+    border-radius: 40px;
+}
+
+#statusText {
+    padding-left: 6%;
+    padding-right: 3%;
+    padding-top: 5%;
+    font-size: 30px;
+    font-family: "Inter";
+    color: whitesmoke;
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}

@@ -2,7 +2,7 @@ import requests
 from time import sleep
 
 class Assembly:
-    def __init__(self, file_name = 'assemblyAPIKEY.txt'):
+    def __init__(self, file_name = 'keys/assemblyAPIKEY.txt'):
         try:
             with open(file_name)  as f:
                 self.api_key = f.readlines()[0].rstrip()

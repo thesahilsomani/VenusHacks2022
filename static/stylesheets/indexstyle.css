@@ -1,0 +1,63 @@
+*{
+    /* width: 0;
+    height: 0; */
+    font-family: 'Lucida Grande';
+}
+
+html { 
+    background: url("../photos/purplewaves.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    width: 600px;
+    height: 240px;
+    left: 50%;
+    top: 40%;
+    background: #3c3c3c;
+    border-radius: 200px;
+    transform: translate(-50%,-50%);
+}
+
+.name {
+    position: absolute;
+    color: whitesmoke;
+    left: 50%;
+    top: 5%;
+    width: 85%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fileUpload {
+    color: white;
+    font-family: 'Lucida Grande';
+    font-size: 20px;
+    top: 80%;
+    left: 50%;
+    text-align-last: center;
+}
+
+#text {
+    top: 55%;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Arial'
+}
+
+#poweredBy {
+    font-family: 'Lucida Grande';
+    font-size: 32px;
+    color: #DCCDFC;
+    margin-bottom: -40;
+}
+
+#astronautGuy {
+    float: right;
+}

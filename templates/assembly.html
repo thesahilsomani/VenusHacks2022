@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> AstroChecker </title>
+        <link rel="stylesheet" href=../static/stylesheets/assemblystyle.css>
+    </head>
+    <body>
+        <div class="astronautGuy">
+            <img width="400px" height="400px" src="../static/photos/astronaut2.png" alt="Picture of Astronaut">
+        </div>
+        <div class="grammarBox">
+            <form action="/processing" method="POST">
+            <input id="grammarButton" type="submit" value="Send to Grammar API"> <br><br>
+        </div>
+        <div>
+            <p class="name"> AstroChecker. </p>
+        </div>
+        <div class="logoBox">
+                <h1 class="poweredBy">Powered by</h1>
+                <img src="../static/photos/assembly_logo2.png" alt="Picture of Assembly AI Logo" class="assemblyLogo">
+        </div>
+            
+        <div class="assemblyText">
+            <p><em>Here's what Assembly AI Heard:</em>{{assembly_out}}</p>
+        </div>
+        
+
+    </body>
+</html> 

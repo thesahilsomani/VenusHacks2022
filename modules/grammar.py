@@ -1,7 +1,7 @@
 import requests
 
 class Grammar:
-    def __init__(self, file_name = 'grammarAPIKEY.txt'):
+    def __init__(self, file_name = 'keys/grammarAPIKEY.txt'):
         try:
             with open(file_name) as f:
                 self.api_key = f.readlines()[0].rstrip()
@@ -23,7 +23,7 @@ class Grammar:
         fixed = input
         errors = response['response']['errors']
         if len(errors) == 0:
-            return input+'\n'+'(No errors found)'
+            return input
         for e in errors:
             bad = e['bad']
             better = e['better'][0]

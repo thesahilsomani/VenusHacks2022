@@ -14,11 +14,14 @@
         <div class="box">
             <h3 class="name">AstroChecker</h3>
             <div class="fileUpload" style="text-align-last: center">
-                    <br><br><br><br>
-                <form action="uploadsuccess" method="POST" enctype="multipart/form-data">
-                    Select MP3 File<br><br> <input type="file" name="myfile"><br><br>
-                    <input type="submit" value="Upload Speech">
-                </form>
+                    <br><br><br><br style="line-height: 16px" />
+
+                    <h>Uploaded File: {{file_name}} <br><br style="line-height: 20px" /> </h>
+                    <audio controls> <source src={{file_path}} type="audio/mpeg"> </audio> <br>
+                    <br style="line-height: 20px" />
+                    
+                    <form action="/processing" method="POST">
+                    <input type="submit" value="Send to Assembly AI API"> <br>
             </div>
             </p>
         </div>
