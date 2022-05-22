@@ -3,4 +3,4 @@
 *.swp
 .DS_Store
 __pycache__
-./data/*.mp3
+./static/*.mp3
