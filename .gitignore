@@ -1,6 +1,6 @@
-*APIKEY.txt
 *.pyc
 *.swp
+*.txt
 .DS_Store
 __pycache__
-./static/*.mp3
+static/*.mp3
