@@ -1,9 +1,8 @@
 # AstroChecker - VenusHacks2022
 
-https://www.youtube.com/watch?v=i_l07el6tzc
-
+[![AstroChecker Presentation](https://img.youtube.com/vi/i_l07el6tzc/0.jpg)](https://www.youtube.com/watch?v=i_l07el6tzc)
 ### Video Timestamps
-Detailed Description: 0:00 Biggest Challenges: 1:52 Software Demo: 2:25 Potential Impacts: 4:07 Next Steps: 4:33
+Detailed Description: 0:00  Biggest Challenges: 1:52  Software Demo: 2:25  Potential Impacts: 4:07  Next Steps: 4:33 
 
 ### Inspiration
 We were impressed by how robust and useful Assembly AI was, so we wanted to see what we could do to make it better. We've experienced first hand how harmful audio artifacts can be in audio transcripts, so our project aimed to solve that problem.
